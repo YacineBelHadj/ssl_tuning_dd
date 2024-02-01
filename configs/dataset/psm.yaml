@@ -1,0 +1,54 @@
+
+train_val:
+  _target_: src.data.psm.dataset.build_dataset
+  database_path: ${oc.env:PATH_DATA}
+  table_name: "processed_data"
+  columns: ["PSD", "id"]
+  preload: True
+  condition: 'stage =?'
+  parameters: ['train']
+  transform: ${transform.transform_psd}
+  transform_label: ${transform.transform_label}
+  _recursive_: True
+
+test:
+  _target_: src.data.psm.dataset.build_dataset
+  database_path : ${oc.env:PATH_DATA}
+  table_name : "processed_data"
+  columns: ["PSD", "id"]
+  transform: ${transform.transform_psd}
+  transform_label: ${transform.transform_label}
+  preload: True
+  condition: 'stage =?'
+  parameters: ['test']
+
+affected_real_anomaly:
+  _target_: src.data.psm.dataset.build_dataset
+  database_path : ${oc.env:PATH_DATA}
+  table_name : "processed_data"
+  columns: ["PSD", "id"]
+  transform: ${transform.transform_psd}
+  transform_label: ${transform.transform_label}
+  preload: True
+  condition: 'stage =?'
+  parameters: ['anomaly']
+
+reference:
+  _target_: src.data.psm.dataset.build_dataset
+  database_path : ${oc.env:PATH_DATA_V}
+  table_name : "ORIGINAL_PSD"
+  columns: ["PSD", "id"]
+  transform: ${transform.transform_psd}
+  transform_label: ${transform.transform_label}
+  preload: True
+
+affected_virtual_anomaly:
+  _target_: src.data.psm.dataset.build_dataset
+  database_path : ${oc.env:PATH_DATA_V}
+  table_name : "VAS_notch"
+  columns: ["PSD", "id"]
+  transform: ${transform.transform_psd}
+  transform_label: ${transform.transform_label}
+  preload: False
+
+

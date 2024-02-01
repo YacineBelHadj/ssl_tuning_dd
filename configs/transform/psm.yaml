@@ -1,0 +1,25 @@
+transform_psd:
+  _target_: src.data.psm.transform.create_psd_transformer
+  database_path: ${oc.env:PATH_DATA}
+  freq_min: 0
+  freq_max: 150
+  num_classes: 20
+transform_label:
+  _target_: src.data.psm.transform.create_label_transformer
+  database_path: ${oc.env:PATH_DATA}
+  freq_min: 0
+  freq_max: 150
+  num_classes: 20
+
+dim_psd:
+  _target_: src.data.psm.transform.dimension_psd
+  database_path: ${oc.env:PATH_DATA}
+  freq_min: 0
+  freq_max: 150
+  num_classes: 20
+
+#dim_psd_save: ${set_env:${transform.dim_psd},DIM_PSD}
+
+
+
+  

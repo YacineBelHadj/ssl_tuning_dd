@@ -1,0 +1,515 @@
+[2024-01-31 11:27:14,780][__main__][INFO] - Logging gpu info
+[2024-01-31 11:27:14,780][__main__][INFO] - Setting seed
+[2024-01-31 11:32:38,716][__main__][INFO] - Logging gpu info
+[2024-01-31 11:32:38,716][__main__][INFO] - Setting seed
+[2024-01-31 11:32:38,717][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:32:42,478][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:33:18,962][__main__][INFO] - Logging gpu info
+[2024-01-31 11:33:32,863][__main__][INFO] - Logging gpu info
+[2024-01-31 11:33:32,864][__main__][INFO] - Setting seed
+[2024-01-31 11:33:32,865][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:33:36,735][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:33:36,822][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:34:08,193][__main__][INFO] - Logging gpu info
+[2024-01-31 11:34:08,194][__main__][INFO] - Setting seed
+[2024-01-31 11:34:08,194][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:34:12,225][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:34:12,316][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:34:12,373][__main__][INFO] - Starting training
+[2024-01-31 11:38:52,491][__main__][INFO] - Logging gpu info
+[2024-01-31 11:38:52,492][__main__][INFO] - Setting seed
+[2024-01-31 11:38:52,493][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:38:56,070][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:38:56,145][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:38:56,201][__main__][INFO] - Starting training
+[2024-01-31 11:39:24,667][__main__][INFO] - Logging gpu info
+[2024-01-31 11:39:24,668][__main__][INFO] - Setting seed
+[2024-01-31 11:39:24,668][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:39:28,373][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:39:28,444][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:39:28,497][__main__][INFO] - Starting training
+[2024-01-31 11:39:54,094][__main__][INFO] - Logging gpu info
+[2024-01-31 11:39:54,095][__main__][INFO] - Setting seed
+[2024-01-31 11:39:54,096][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:39:57,625][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:39:57,697][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:39:57,746][__main__][INFO] - Starting training
+[2024-01-31 11:40:42,717][__main__][INFO] - Logging gpu info
+[2024-01-31 11:40:42,717][__main__][INFO] - Setting seed
+[2024-01-31 11:40:42,718][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:40:46,119][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:40:46,162][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:40:46,163][__main__][INFO] - Starting training
+[2024-01-31 11:42:05,607][__main__][INFO] - Logging gpu info
+[2024-01-31 11:42:05,607][__main__][INFO] - Setting seed
+[2024-01-31 11:42:05,608][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:42:09,521][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:42:09,561][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:42:09,562][__main__][INFO] - Starting training
+[2024-01-31 11:42:13,971][__main__][INFO] - Logging gpu info
+[2024-01-31 11:42:13,972][__main__][INFO] - Setting seed
+[2024-01-31 11:42:13,972][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:42:17,509][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:42:17,550][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:42:17,551][__main__][INFO] - Starting training
+[2024-01-31 11:42:24,926][__main__][INFO] - Logging gpu info
+[2024-01-31 11:42:24,926][__main__][INFO] - Setting seed
+[2024-01-31 11:42:24,927][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:42:28,420][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:42:28,459][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:42:28,537][__main__][INFO] - Starting training
+[2024-01-31 11:43:48,153][__main__][INFO] - Logging gpu info
+[2024-01-31 11:43:48,154][__main__][INFO] - Setting seed
+[2024-01-31 11:43:48,155][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:43:51,627][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:43:51,669][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:43:51,752][__main__][INFO] - Starting training
+[2024-01-31 11:44:06,130][__main__][INFO] - Logging gpu info
+[2024-01-31 11:44:06,131][__main__][INFO] - Setting seed
+[2024-01-31 11:44:06,132][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:44:10,041][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:44:10,082][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:44:10,157][__main__][INFO] - Starting training
+[2024-01-31 11:45:06,713][__main__][INFO] - Logging gpu info
+[2024-01-31 11:45:06,714][__main__][INFO] - Setting seed
+[2024-01-31 11:45:06,715][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:45:10,225][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:45:10,269][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:45:46,734][__main__][INFO] - Logging gpu info
+[2024-01-31 11:45:46,735][__main__][INFO] - Setting seed
+[2024-01-31 11:45:46,736][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:45:50,304][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:45:50,346][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:46:44,418][__main__][INFO] - Logging gpu info
+[2024-01-31 11:46:44,418][__main__][INFO] - Setting seed
+[2024-01-31 11:46:44,419][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:46:44,431][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:46:44,442][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:48:32,833][__main__][INFO] - Logging gpu info
+[2024-01-31 11:48:32,834][__main__][INFO] - Setting seed
+[2024-01-31 11:48:32,835][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:48:32,845][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:48:32,858][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:48:58,808][__main__][INFO] - Logging gpu info
+[2024-01-31 11:48:58,809][__main__][INFO] - Setting seed
+[2024-01-31 11:48:58,810][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:48:58,825][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:48:58,846][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:52:28,501][__main__][INFO] - Logging gpu info
+[2024-01-31 11:52:28,502][__main__][INFO] - Setting seed
+[2024-01-31 11:52:28,502][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:52:28,514][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:52:28,525][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:52:32,800][__main__][INFO] - Starting training
+[2024-01-31 11:53:21,681][__main__][INFO] - Logging gpu info
+[2024-01-31 11:53:21,682][__main__][INFO] - Setting seed
+[2024-01-31 11:53:21,683][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:53:21,694][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:53:21,706][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:53:25,309][__main__][INFO] - Starting training
+[2024-01-31 11:55:12,800][__main__][INFO] - Logging gpu info
+[2024-01-31 11:55:12,801][__main__][INFO] - Setting seed
+[2024-01-31 11:55:12,801][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:55:12,813][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:55:12,822][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:55:16,470][__main__][INFO] - Starting training
+[2024-01-31 11:55:50,659][__main__][INFO] - Logging gpu info
+[2024-01-31 11:55:50,660][__main__][INFO] - Setting seed
+[2024-01-31 11:55:50,661][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:55:50,671][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:55:50,682][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:55:54,755][__main__][INFO] - Starting training
+[2024-01-31 11:57:30,421][__main__][INFO] - Logging gpu info
+[2024-01-31 11:57:30,421][__main__][INFO] - Setting seed
+[2024-01-31 11:57:30,422][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:57:30,437][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:57:30,453][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:57:33,949][__main__][INFO] - Starting training
+[2024-01-31 11:58:28,440][__main__][INFO] - Logging gpu info
+[2024-01-31 11:58:28,440][__main__][INFO] - Setting seed
+[2024-01-31 11:58:28,441][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 11:58:28,452][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 11:58:28,464][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 11:58:32,418][__main__][INFO] - Starting training
+[2024-01-31 12:02:05,164][__main__][INFO] - Logging gpu info
+[2024-01-31 12:02:05,165][__main__][INFO] - Setting seed
+[2024-01-31 12:02:05,166][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:02:05,176][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:02:05,187][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:02:09,240][__main__][INFO] - Starting training
+[2024-01-31 12:04:44,024][__main__][INFO] - Logging gpu info
+[2024-01-31 12:04:44,025][__main__][INFO] - Setting seed
+[2024-01-31 12:04:44,027][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:04:44,038][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:04:44,050][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:04:47,699][__main__][INFO] - Starting training
+[2024-01-31 12:05:19,822][__main__][INFO] - Logging gpu info
+[2024-01-31 12:05:19,822][__main__][INFO] - Setting seed
+[2024-01-31 12:05:19,823][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:05:19,834][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:05:19,845][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:05:23,446][__main__][INFO] - Starting training
+[2024-01-31 12:07:26,016][__main__][INFO] - Logging gpu info
+[2024-01-31 12:07:26,016][__main__][INFO] - Setting seed
+[2024-01-31 12:07:26,018][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:07:26,031][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:07:26,046][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:07:30,368][__main__][INFO] - Starting training
+[2024-01-31 12:08:06,834][__main__][INFO] - Logging gpu info
+[2024-01-31 12:08:06,835][__main__][INFO] - Setting seed
+[2024-01-31 12:08:06,836][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:08:06,845][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:08:06,854][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:08:10,914][__main__][INFO] - Starting training
+[2024-01-31 12:08:37,958][__main__][INFO] - Logging gpu info
+[2024-01-31 12:08:37,959][__main__][INFO] - Setting seed
+[2024-01-31 12:08:37,959][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:08:37,970][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:08:37,981][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:08:42,363][__main__][INFO] - Starting training
+[2024-01-31 12:08:51,944][__main__][INFO] - Logging gpu info
+[2024-01-31 12:08:51,944][__main__][INFO] - Setting seed
+[2024-01-31 12:08:51,945][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:08:51,956][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:08:51,966][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:08:55,948][__main__][INFO] - Starting training
+[2024-01-31 12:10:04,988][__main__][INFO] - Logging gpu info
+[2024-01-31 12:10:04,988][__main__][INFO] - Setting seed
+[2024-01-31 12:10:04,989][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:10:04,998][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:10:05,006][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:10:08,623][__main__][INFO] - Starting training
+[2024-01-31 12:11:00,639][__main__][INFO] - Logging gpu info
+[2024-01-31 12:11:00,639][__main__][INFO] - Setting seed
+[2024-01-31 12:11:00,640][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:11:00,652][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:11:00,663][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:11:04,225][__main__][INFO] - Starting training
+[2024-01-31 12:11:45,494][__main__][INFO] - Logging gpu info
+[2024-01-31 12:11:45,494][__main__][INFO] - Setting seed
+[2024-01-31 12:11:45,495][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:11:45,507][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:11:45,517][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:11:49,156][__main__][INFO] - Starting training
+[2024-01-31 12:12:49,912][__main__][INFO] - Logging gpu info
+[2024-01-31 12:12:49,912][__main__][INFO] - Setting seed
+[2024-01-31 12:12:49,913][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:13:35,557][__main__][INFO] - Logging gpu info
+[2024-01-31 12:13:35,558][__main__][INFO] - Setting seed
+[2024-01-31 12:13:35,559][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:13:57,431][__main__][INFO] - Logging gpu info
+[2024-01-31 12:13:57,432][__main__][INFO] - Setting seed
+[2024-01-31 12:13:57,433][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:13:57,447][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:13:57,460][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:14:01,124][__main__][INFO] - Starting training
+[2024-01-31 12:14:43,040][__main__][INFO] - Logging gpu info
+[2024-01-31 12:14:43,041][__main__][INFO] - Setting seed
+[2024-01-31 12:14:43,050][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:14:43,067][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:14:43,079][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:15:11,227][__main__][INFO] - Starting training
+[2024-01-31 12:16:38,545][__main__][INFO] - Logging gpu info
+[2024-01-31 12:16:38,554][__main__][INFO] - Setting seed
+[2024-01-31 12:16:38,555][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:16:38,565][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:16:38,576][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:16:42,306][__main__][INFO] - Starting training
+[2024-01-31 12:19:46,011][__main__][INFO] - Logging gpu info
+[2024-01-31 12:19:46,012][__main__][INFO] - Setting seed
+[2024-01-31 12:19:46,013][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:19:46,026][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:19:46,036][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:19:49,701][__main__][INFO] - Starting training
+[2024-01-31 12:21:55,562][__main__][INFO] - Logging gpu info
+[2024-01-31 12:21:55,563][__main__][INFO] - Setting seed
+[2024-01-31 12:21:55,564][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:21:55,575][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:21:55,585][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:21:59,449][__main__][INFO] - Starting training
+[2024-01-31 12:22:54,497][__main__][INFO] - Logging gpu info
+[2024-01-31 12:22:54,506][__main__][INFO] - Setting seed
+[2024-01-31 12:22:54,507][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:22:54,521][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:22:54,538][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:22:58,488][__main__][INFO] - Starting training
+[2024-01-31 12:24:07,807][__main__][INFO] - Logging gpu info
+[2024-01-31 12:24:07,807][__main__][INFO] - Setting seed
+[2024-01-31 12:24:07,808][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:24:07,829][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:24:07,840][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:24:11,532][__main__][INFO] - Starting training
+[2024-01-31 12:27:51,345][__main__][INFO] - Logging gpu info
+[2024-01-31 12:27:51,354][__main__][INFO] - Setting seed
+[2024-01-31 12:27:51,355][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 12:27:51,367][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 12:27:51,379][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 12:27:55,657][__main__][INFO] - Starting training
+[2024-01-31 14:36:19,685][__main__][INFO] - Logging gpu info
+[2024-01-31 14:36:19,694][__main__][INFO] - Setting seed
+[2024-01-31 14:36:19,695][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 14:36:19,707][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 14:36:19,719][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 14:36:23,593][__main__][INFO] - Starting training
+[2024-01-31 14:42:08,336][__main__][INFO] - Logging gpu info
+[2024-01-31 14:42:08,337][__main__][INFO] - Setting seed
+[2024-01-31 14:42:08,338][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 14:42:08,405][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 14:42:08,474][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 14:50:47,670][__main__][INFO] - Logging gpu info
+[2024-01-31 14:50:47,671][__main__][INFO] - Setting seed
+[2024-01-31 14:50:47,672][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 14:50:47,682][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 14:50:47,691][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 14:50:51,301][__main__][INFO] - Starting training
+[2024-01-31 14:56:48,203][__main__][INFO] - Logging gpu info
+[2024-01-31 14:56:48,203][__main__][INFO] - Setting seed
+[2024-01-31 14:56:48,204][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 14:56:48,214][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 14:56:48,227][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 14:56:53,191][__main__][INFO] - Starting training
+[2024-01-31 15:04:28,352][__main__][INFO] - Logging gpu info
+[2024-01-31 15:04:28,353][__main__][INFO] - Setting seed
+[2024-01-31 15:04:28,354][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:04:28,364][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:04:28,373][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:04:32,302][__main__][INFO] - Starting training
+[2024-01-31 15:05:42,497][__main__][INFO] - Logging gpu info
+[2024-01-31 15:05:42,498][__main__][INFO] - Setting seed
+[2024-01-31 15:05:42,499][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:05:42,508][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:05:42,518][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:05:46,248][__main__][INFO] - Starting training
+[2024-01-31 15:08:30,118][__main__][INFO] - Logging gpu info
+[2024-01-31 15:08:30,119][__main__][INFO] - Setting seed
+[2024-01-31 15:08:30,120][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:08:30,129][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:08:30,139][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:08:33,864][__main__][INFO] - Starting training
+[2024-01-31 15:10:00,572][__main__][INFO] - Logging gpu info
+[2024-01-31 15:10:00,572][__main__][INFO] - Setting seed
+[2024-01-31 15:10:00,573][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:10:00,583][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:10:00,596][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:10:04,361][__main__][INFO] - Starting training
+[2024-01-31 15:28:48,936][__main__][INFO] - Logging gpu info
+[2024-01-31 15:28:48,937][__main__][INFO] - Setting seed
+[2024-01-31 15:28:48,937][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:28:48,947][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:28:48,958][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:28:52,556][__main__][INFO] - Starting training
+[2024-01-31 15:30:54,888][__main__][INFO] - Logging gpu info
+[2024-01-31 15:30:54,888][__main__][INFO] - Setting seed
+[2024-01-31 15:30:54,889][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:30:54,899][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:30:54,911][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:30:58,723][__main__][INFO] - Starting training
+[2024-01-31 15:42:12,158][__main__][INFO] - Logging gpu info
+[2024-01-31 15:42:12,158][__main__][INFO] - Setting seed
+[2024-01-31 15:42:12,160][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:42:12,174][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:42:12,188][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:42:15,991][__main__][INFO] - Starting training
+[2024-01-31 15:42:40,178][__main__][INFO] - Logging gpu info
+[2024-01-31 15:42:40,179][__main__][INFO] - Setting seed
+[2024-01-31 15:42:40,180][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:42:40,191][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:42:40,204][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:42:43,814][__main__][INFO] - Starting training
+[2024-01-31 15:54:17,589][__main__][INFO] - Logging gpu info
+[2024-01-31 15:54:17,590][__main__][INFO] - Setting seed
+[2024-01-31 15:54:17,591][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 15:54:17,601][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 15:54:17,610][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 15:54:21,463][__main__][INFO] - Starting training
+[2024-01-31 16:06:33,134][__main__][INFO] - Logging gpu info
+[2024-01-31 16:06:33,135][__main__][INFO] - Setting seed
+[2024-01-31 16:06:33,136][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 16:06:33,146][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 16:06:33,159][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 16:06:37,827][__main__][INFO] - Starting training
+[2024-01-31 16:07:26,071][__main__][INFO] - Logging gpu info
+[2024-01-31 16:07:26,072][__main__][INFO] - Setting seed
+[2024-01-31 16:07:26,073][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 16:07:26,084][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 16:07:26,095][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 16:07:30,231][__main__][INFO] - Starting training
+[2024-01-31 16:12:26,590][__main__][INFO] - Logging gpu info
+[2024-01-31 16:12:26,591][__main__][INFO] - Setting seed
+[2024-01-31 16:12:26,592][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 16:12:26,603][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 16:12:26,614][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 16:12:30,952][__main__][INFO] - Starting training
+[2024-01-31 18:19:15,354][__main__][INFO] - Logging gpu info
+[2024-01-31 18:19:15,355][__main__][INFO] - Setting seed
+[2024-01-31 18:19:15,357][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 18:19:15,368][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 18:19:15,382][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 18:19:19,420][__main__][INFO] - Starting training
+[2024-01-31 18:20:34,875][__main__][INFO] - Logging gpu info
+[2024-01-31 18:20:34,876][__main__][INFO] - Setting seed
+[2024-01-31 18:20:34,886][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 18:20:34,898][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 18:20:34,910][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 18:20:44,109][__main__][INFO] - Starting training
+[2024-01-31 22:30:51,459][__main__][INFO] - Logging gpu info
+[2024-01-31 22:30:51,459][__main__][INFO] - Setting seed
+[2024-01-31 22:30:51,461][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 22:30:51,474][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 22:30:51,489][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 22:30:55,705][__main__][INFO] - Starting training
+[2024-01-31 22:31:38,928][__main__][INFO] - Logging gpu info
+[2024-01-31 22:31:38,929][__main__][INFO] - Setting seed
+[2024-01-31 22:31:38,930][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 22:31:38,943][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 22:31:38,956][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 22:31:42,863][__main__][INFO] - Starting training
+[2024-01-31 23:02:18,317][__main__][INFO] - Logging gpu info
+[2024-01-31 23:02:18,318][__main__][INFO] - Setting seed
+[2024-01-31 23:02:18,319][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:02:18,331][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:02:18,346][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:02:22,967][__main__][INFO] - Starting training
+[2024-01-31 23:02:56,899][__main__][INFO] - Logging gpu info
+[2024-01-31 23:02:56,900][__main__][INFO] - Setting seed
+[2024-01-31 23:02:56,901][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:02:56,912][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:02:56,922][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:03:00,831][__main__][INFO] - Starting training
+[2024-01-31 23:03:27,786][__main__][INFO] - Logging gpu info
+[2024-01-31 23:03:27,787][__main__][INFO] - Setting seed
+[2024-01-31 23:03:27,788][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:03:27,797][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:03:27,810][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:03:31,696][__main__][INFO] - Starting training
+[2024-01-31 23:04:42,920][__main__][INFO] - Logging gpu info
+[2024-01-31 23:04:42,920][__main__][INFO] - Setting seed
+[2024-01-31 23:04:42,921][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:04:42,931][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:04:42,943][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:04:47,070][__main__][INFO] - Starting training
+[2024-01-31 23:05:59,332][__main__][INFO] - Logging gpu info
+[2024-01-31 23:05:59,332][__main__][INFO] - Setting seed
+[2024-01-31 23:05:59,333][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:05:59,344][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:05:59,354][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:06:41,779][__main__][INFO] - Logging gpu info
+[2024-01-31 23:06:41,788][__main__][INFO] - Setting seed
+[2024-01-31 23:06:41,789][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:06:41,799][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:06:41,816][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:06:45,752][__main__][INFO] - Starting training
+[2024-01-31 23:08:46,887][__main__][INFO] - Logging gpu info
+[2024-01-31 23:08:46,888][__main__][INFO] - Setting seed
+[2024-01-31 23:08:46,888][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:08:46,898][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:08:46,910][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:08:50,948][__main__][INFO] - Starting training
+[2024-01-31 23:09:34,029][__main__][INFO] - Logging gpu info
+[2024-01-31 23:09:34,029][__main__][INFO] - Setting seed
+[2024-01-31 23:09:34,031][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:09:34,042][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:09:34,052][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:09:38,198][__main__][INFO] - Starting training
+[2024-01-31 23:10:11,773][__main__][INFO] - Logging gpu info
+[2024-01-31 23:10:11,774][__main__][INFO] - Setting seed
+[2024-01-31 23:10:11,775][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-01-31 23:10:11,784][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-01-31 23:10:11,794][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-01-31 23:10:15,785][__main__][INFO] - Starting training
+[2024-02-01 09:14:16,569][__main__][INFO] - Logging gpu info
+[2024-02-01 09:14:16,570][__main__][INFO] - Setting seed
+[2024-02-01 09:14:16,570][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:14:16,579][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:14:16,589][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:14:20,502][__main__][INFO] - Starting training
+[2024-02-01 09:25:05,485][__main__][INFO] - Logging gpu info
+[2024-02-01 09:25:05,485][__main__][INFO] - Setting seed
+[2024-02-01 09:25:05,486][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:25:05,496][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:25:05,505][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:25:09,405][__main__][INFO] - Starting training
+[2024-02-01 09:26:44,740][__main__][INFO] - Logging gpu info
+[2024-02-01 09:26:44,740][__main__][INFO] - Setting seed
+[2024-02-01 09:26:44,741][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:26:44,749][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:26:44,761][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:26:48,745][__main__][INFO] - Starting training
+[2024-02-01 09:44:18,201][__main__][INFO] - Logging gpu info
+[2024-02-01 09:44:18,201][__main__][INFO] - Setting seed
+[2024-02-01 09:44:18,202][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:44:18,212][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:45:40,738][__main__][INFO] - Logging gpu info
+[2024-02-01 09:45:40,738][__main__][INFO] - Setting seed
+[2024-02-01 09:45:40,739][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:45:40,748][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:46:22,956][__main__][INFO] - Logging gpu info
+[2024-02-01 09:46:22,956][__main__][INFO] - Setting seed
+[2024-02-01 09:46:22,958][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:46:22,966][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:46:22,976][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:46:26,747][__main__][INFO] - Starting training
+[2024-02-01 09:48:36,988][__main__][INFO] - Logging gpu info
+[2024-02-01 09:48:36,989][__main__][INFO] - Setting seed
+[2024-02-01 09:48:36,990][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:48:36,998][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:48:37,010][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:48:40,840][__main__][INFO] - Starting training
+[2024-02-01 09:49:36,315][__main__][INFO] - Logging gpu info
+[2024-02-01 09:49:36,316][__main__][INFO] - Setting seed
+[2024-02-01 09:49:36,318][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:49:36,337][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:49:36,360][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:49:40,622][__main__][INFO] - Starting training
+[2024-02-01 09:54:46,455][__main__][INFO] - Logging gpu info
+[2024-02-01 09:54:46,455][__main__][INFO] - Setting seed
+[2024-02-01 09:54:46,456][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 09:54:46,466][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 09:54:46,482][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 09:54:50,608][__main__][INFO] - Starting training
+[2024-02-01 10:18:47,354][__main__][INFO] - Logging gpu info
+[2024-02-01 10:18:47,355][__main__][INFO] - Setting seed
+[2024-02-01 10:18:47,356][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:18:47,374][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:25:37,731][__main__][INFO] - Logging gpu info
+[2024-02-01 10:25:37,731][__main__][INFO] - Setting seed
+[2024-02-01 10:25:37,732][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:25:37,748][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:25:38,300][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:25:42,007][__main__][INFO] - Starting training
+[2024-02-01 10:30:46,107][__main__][INFO] - Logging gpu info
+[2024-02-01 10:30:46,108][__main__][INFO] - Setting seed
+[2024-02-01 10:30:46,109][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:30:46,127][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:30:46,651][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:30:50,513][__main__][INFO] - Starting training
+[2024-02-01 10:31:27,390][__main__][INFO] - Logging gpu info
+[2024-02-01 10:31:27,391][__main__][INFO] - Setting seed
+[2024-02-01 10:31:27,392][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:31:27,409][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:31:27,946][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:31:32,182][__main__][INFO] - Starting training
+[2024-02-01 10:32:05,992][__main__][INFO] - Logging gpu info
+[2024-02-01 10:32:05,993][__main__][INFO] - Setting seed
+[2024-02-01 10:32:05,994][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:32:06,015][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:32:06,547][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:32:10,419][__main__][INFO] - Starting training
+[2024-02-01 10:32:59,261][__main__][INFO] - Logging gpu info
+[2024-02-01 10:32:59,261][__main__][INFO] - Setting seed
+[2024-02-01 10:32:59,262][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:32:59,278][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:32:59,809][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:33:03,662][__main__][INFO] - Starting training
+[2024-02-01 10:38:01,468][__main__][INFO] - Logging gpu info
+[2024-02-01 10:38:01,469][__main__][INFO] - Setting seed
+[2024-02-01 10:38:01,469][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:38:01,486][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:38:02,030][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:38:05,737][__main__][INFO] - Starting training
+[2024-02-01 10:38:34,452][__main__][INFO] - Logging gpu info
+[2024-02-01 10:38:34,453][__main__][INFO] - Setting seed
+[2024-02-01 10:38:34,454][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-01 10:38:34,473][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-01 10:38:35,032][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-01 10:38:38,780][__main__][INFO] - Starting training

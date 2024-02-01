@@ -1,0 +1,6 @@
+lightning
+wandb
+numpy
+hydra-core
+pyrootutils
+pynvml

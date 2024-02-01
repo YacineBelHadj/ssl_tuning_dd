@@ -1,0 +1,43 @@
+cfg:
+  network:
+    _target_: src.model.component.simple_dense_net.SimpleDenseNet
+    input_dim:
+      _target_: src.data.psm.transform.dimension_psd
+      database_path: /home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+      freq_min: 0
+      freq_max: 150
+      num_classes: 20
+    hidden_layers:
+    - 64
+    - 128
+    - 64
+    embedding_dim: 32
+    output_dim: 20
+    dropout: 0.5
+    activation: ReLU
+    batch_norm: true
+    bias: true
+    temperature: 1
+    l1_regularization: 0.0001
+    l2_regularization: 1.0e-05
+  optimizer:
+    _target_: torch.optim.Adam
+    lr: 0.001
+    weight_decay: 0.0001
+  scheduler:
+    _target_: torch.optim.lr_scheduler.CosineAnnealingLR
+    T_max: 10
+    eta_min: 1.0e-10
+    _partial_: true
+  loss:
+    _target_: torch.nn.CrossEntropyLoss
+  metric:
+    _target_: torchmetrics.Accuracy
+    task: multiclass
+    num_classes: 20
+    _partial_: true
+  logging:
+    on_step: false
+    on_epoch: true
+    sync_dist: true
+    prog_bar: true

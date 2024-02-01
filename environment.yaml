@@ -1,0 +1,17 @@
+name: ssl_dd
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+
+dependencies:
+  - python>=3.7,<=3.10
+  - lightning = 2.*
+  - pytorch = 2.*
+  - hydra-core = 1.*
+  - wandb = 0.*
+  - pip>=23
+  - matplotlib 
+  - pip:
+        - hydra-optuna-sweeper
+        - hydra-colorlog

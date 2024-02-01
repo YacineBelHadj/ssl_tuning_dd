@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ssl_dd
+Version: 0.1
+Summary: Self-Supervised Learning for Damage Detection
+Author: Yacine Bel-Hadj
+Author-email: Yacine.bel-hadj@vub.be
+Requires-Python: >=3.6 , <3.10
+Requires-Dist: lightning
+Requires-Dist: wandb
+Requires-Dist: numpy
+Requires-Dist: hydra-core
+Requires-Dist: pyrootutils
+Requires-Dist: pynvml
