@@ -47,6 +47,11 @@ def main(cfg: DictConfig):
     print(model)
     print(trainer)
     trainer.fit(model=model,datamodule=datamodule)
-
+    # save file with hi at hi.txt
+    os.system("echo hi > hi.txt")
+    log.info("Training complete")
+    log.info("Starting testing")
+    trainer.test(model=model,datamodule=datamodule)
+    
 if __name__ == "__main__":
     main()

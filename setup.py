@@ -15,7 +15,7 @@ setup(
         'pyrootutils',
         'pynvml',
         'hydra-colorlog',],
-    python_requires='>=3.6 , <3.10',
+    python_requires='>=3.6 , <3.12',
 )
 
 

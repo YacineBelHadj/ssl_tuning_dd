@@ -15,13 +15,13 @@ clean-logs: ## Clean logs
 	rm -rf logs/**
 clean-output: ## Clean output
 	rm -rf outputs
-clean_lit_logs: ## Clean lit logs
+clean-lit-logs: ## Clean lit logs
 	rm -rf lightning_logs
 
 format: ## Run pre-commit hooks
 	pre-commit run -a
 
-sync: ## Merge changes from main branch to your current branch
+sync-git: ## Merge changes from main branch to your current branch
 	git pull
 	git pull origin main
 
@@ -33,3 +33,25 @@ test-full: ## Run all tests
 
 train: ## Train the model
 	python src/train.py
+
+# clean cache
+clean-cache:
+	rm -rf __pycache__/
+clean-all : clean clean-logs clean-output clean-lit-logs clean-cache ## Clean all
+
+# rsync to remote server  
+exportenv:
+	export $(<.env grep -v "^#" | xargs)
+
+
+REMOTE_SERVER=vsc10630@login.hpc.vub.be
+REMOTE_PATH=/scratch/brussel/106/vsc10630/ssl_tuning_ddl
+
+sync-to-cluster:
+	echo $(REMOTE_SERVER)
+	echo $(REMOTE_PATH)
+	rsync -avz --exclude=.rsyncignore ./ $(REMOTE_SERVER):$(REMOTE_PATH)
+
+fetch-logs: ## Fetch log files from the cluster
+	mkdir -p local_logs
+	rsync -avz $(REMOTE_SERVER):$(REMOTE_PATH)/logs/ ./local_logs/
