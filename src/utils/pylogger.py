@@ -20,5 +20,11 @@ def get_pylogger(name=__name__) -> logging.Logger:
     )
     for level in logging_levels:
         setattr(logger, level, rank_zero_only(getattr(logger, level)))
-
+    # set location of logging to logs/ 
+    logging.basicConfig(
+        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+        datefmt="%m/%d/%Y %H:%M:%S",
+        filename=f"logs/{name}.log",
+    
+    )
     return logger
