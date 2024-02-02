@@ -22,7 +22,6 @@ class ClassifierModule(BaseLitModule):
     
     def _common_step(self,batch,stage):
         x,y = batch
-        print(x)
         y_hat = self(x)
         loss = self.loss(y_hat,y)
         loss = loss + self.model.get_regularization_loss()
@@ -30,13 +29,11 @@ class ClassifierModule(BaseLitModule):
         return loss,metric,y_hat
     
     def training_step(self,batch,batch_idx):
-        print('training_step')
         loss,metric,y_pred = self._common_step(batch,"train")
         self.log_dict({"train_loss":loss,"train_metric":metric})
         return loss
     
     def validation_step(self,batch,batch_idx):
-        print('validation_step')
         loss,metric,y_pred = self._common_step(batch,"val")
         self.log_dict({"val_loss":loss,"val_metric":metric})
         return loss

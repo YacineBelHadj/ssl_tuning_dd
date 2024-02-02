@@ -19,8 +19,6 @@ class DataModule(pl.LightningDataModule):
         self.affacted_virtual_anomaly = affected_virtual_anomaly
 
     def _get_dataset(self,dataset_config):
-
-
         return hydra.utils.instantiate(dataset_config.dataset)
     
     def setup(self,stage=None):

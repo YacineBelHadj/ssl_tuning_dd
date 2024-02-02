@@ -5,7 +5,8 @@ from torch.utils.data import Dataset
 import torch
 import numpy as np
 from contextlib import closing
-
+from omegaconf import DictConfig, OmegaConf
+import hydra
 
 class PSMDatasetBuilder:
     def __init__(self):
@@ -31,8 +32,10 @@ class PSMDatasetBuilder:
         return self
 
     def add_condition(self, condition: str, params: List) -> 'PSMDatasetBuilder':
-        self.conditions = condition
-        self.parameters = params
+        if self.conditions:
+            self.conditions += ' AND '
+        self.conditions += condition
+        self.parameters += params
         return self
 
     def set_transform(self, transform: Callable) -> 'PSMDatasetBuilder':
@@ -46,8 +49,12 @@ class PSMDatasetBuilder:
     def enable_preloading(self, preload: bool = True) -> 'PSMDatasetBuilder':
         self.preload = preload
         return self
+    # let's make the query to the database that finds the keys that match the condition
+    # then we can use the keys to fetch the data
 
+    
     def build(self) -> Dataset:
+ 
         return PSMDataset(self)
 
 class PSMDataset(Dataset):
@@ -55,79 +62,78 @@ class PSMDataset(Dataset):
         self.database_path = builder.database_path
         self.table_name = builder.table_name
         self.columns = ', '.join(builder.columns)
-        self.conditions = builder.conditions
+        self.condition = builder.conditions
         self.parameters = builder.parameters
         self.transform = builder.transform
         self.transform_label = builder.transform_label
         self.preload = builder.preload
-        self.data = []
-        self.keys = []
 
-        # Initialize dataset in a context manager
+
+        self.keys = self._get_keys()
+
+        self.data = self._preload_data() if self.preload else None
+    def _get_keys(self):
+        query = f"SELECT id FROM {self.table_name} WHERE {self.condition}" if self.condition else f"SELECT id FROM {self.table_name}"
         with closing(sqlite3.connect(self.database_path)) as conn:
             with closing(conn.cursor()) as cursor:
-                self._initialize_dataset(cursor)
-
-    def _initialize_dataset(self, cursor):
-        query_keys = f"SELECT id FROM {self.table_name}"
-        condition_query = f" WHERE {self.conditions}" if self.conditions else ""
-
-        # Preload keys
-        cursor.execute(query_keys + condition_query, self.parameters)
-        self.keys = [row[0] for row in cursor.fetchall()]
-
-        if self.preload:
-            base_query = f"SELECT {self.columns} FROM {self.table_name}{condition_query}"
-            cursor.execute(base_query, self.parameters)
-            self.data = cursor.fetchall()
-            print('Preloading data...')
+                cursor.execute(query, self.parameters)
+                return [row[0] for row in cursor.fetchall()]
+            
+    def _preload_data(self):
+        data = []
+        conn= sqlite3.connect(self.database_path)
+        cursor= conn.cursor()
+                # Building a query to fetch all rows at once based on the keys
+        placeholders = ','.join('?' for _ in self.keys)
+        query = f"SELECT {self.columns} FROM {self.table_name} WHERE id IN ({placeholders})"
+        cursor.execute(query, self.keys)
+        rows = cursor.fetchall()
+        for row in rows:
+            data.append(self._process_row(row))
+        # print size of data in MB
+        return data
 
     def __len__(self):
         return len(self.keys)
-
     def __getitem__(self, idx):
         if self.preload:
-            row = self.data[idx]
+            return self.data[idx]
         else:
-            with closing(sqlite3.connect(self.database_path)) as conn:
-                with closing(conn.cursor()) as cursor:
-                    key_query = f"SELECT {self.columns} FROM {self.table_name} WHERE id = ?"
-                    cursor.execute(key_query, (self.keys[idx],))
-                    row = cursor.fetchone()
-
-        return self._process_row(row)
-
+            key = self.keys[idx]
+            row = self._fetch_data(key)
+            return self._process_row(row) if row else None
+    def _fetch_data(self, key):
+        query = f"SELECT {self.columns} FROM {self.table_name} WHERE id = ?"
+        with closing(sqlite3.connect(self.database_path)) as conn:
+            with closing(conn.cursor()) as cursor:
+                cursor.execute(query, (key,))
+                return cursor.fetchone()
     def _process_row(self, row):
-        result = []
-        for i, col in enumerate(self.columns.split(', ')):
-            data = row[i]
-            if col == 'PSD' and data is not None:
-                psd = np.frombuffer(data)
-                if self.transform:
-                    psd = self.transform(psd)
-                psd = torch.from_numpy(psd).float()
-                result.append(psd)
-            elif col in ['system_name'] and self.transform_label:
-                result.append(self.transform_label(data))
+        res = []
+        for data, tsf in zip(row, self.transform):
+            if tsf:
+                res.append(tsf(data))
             else:
-                result.append(data)
-        return tuple(result)
+                res.append(data)
 
+        return tuple(res)
+    
 def build_dataset(database_path: Union[str, Path],
                   table_name: str = 'processed_data',
-                  columns: List[str] = ['PSD', 'system_name', 'anomaly_level'],
+                  columns: List[str] = ['PSD', 'system_name'],
                   condition: str = '',
-                  parameters: List = [],
-                  transform: Callable = None,
-                  transform_label: Callable = None,
+                  parameters: List[str] = [],
+                  transform: List[Callable] = None,
                   preload: bool = False) -> Dataset:
-    
-    return PSMDatasetBuilder()\
+
+    assert len(columns)== len(transform), "The number of columns and transforms must be the same"
+
+    dataset =  PSMDatasetBuilder()\
         .set_database_path(database_path)\
         .set_table_name(table_name)\
         .set_columns(columns)\
         .add_condition(condition, parameters)\
         .set_transform(transform)\
-        .set_transform_label(transform_label)\
         .enable_preloading(preload)\
         .build()
+    return dataset

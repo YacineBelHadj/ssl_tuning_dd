@@ -41,7 +41,6 @@ def main(cfg: DictConfig):
 
     model = hydra.utils.instantiate(cfg.backbone)
     log.info(f"Instantiating Trainer <<{cfg.trainer._target_}>>")
-    datamodule.setup()
     trainer = hydra.utils.instantiate(cfg.trainer)
 
     log.info("Starting training")

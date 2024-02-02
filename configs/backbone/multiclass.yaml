@@ -34,7 +34,6 @@ cfg:
     _target_: "torchmetrics.Accuracy"
     task: "multiclass"
     num_classes: 20
-    _partial_: True
 
 
   logging:

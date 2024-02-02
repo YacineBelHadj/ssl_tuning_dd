@@ -5,29 +5,29 @@ train_val:
   dataset: ${dataset.train_val}
   batch_size: 64
   shuffle: True
-  num_workers: 4
+  num_workers: 1
 test:
   dataset: ${dataset.test}
   batch_size: 64
   shuffle: False
-  num_workers: 4
+  num_workers: 1
 
 affected_real_anomaly:
   dataset: ${dataset.affected_real_anomaly}
   batch_size: 1000
   shuffle: False
-  num_workers: 4
+  num_workers: 1
 
 reference:
   dataset: ${dataset.reference}
   batch_size: 1000
   shuffle: False
-  num_workers: 4
+  num_workers: 1
 
 affected_virtual_anomaly:
   dataset: ${dataset.affected_virtual_anomaly}
   batch_size: 4000
   shuffle: False
-  num_workers: 4
+  num_workers: 
 
-_recursive_: False
+_recursive_: True

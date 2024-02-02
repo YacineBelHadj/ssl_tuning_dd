@@ -16,6 +16,6 @@ setup(
         'pynvml',
         'hydra-colorlog',],
     python_requires='>=3.6 , <3.10',
-) 
+)
 
 

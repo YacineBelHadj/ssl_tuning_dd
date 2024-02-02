@@ -1,4 +1,0 @@
-[2024-01-31 11:07:20,489][__main__][INFO] - Logging gpu info
-[2024-01-31 11:07:20,490][__main__][INFO] - Setting seed
-[2024-01-31 11:07:20,490][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
-[2024-01-31 11:07:24,373][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>

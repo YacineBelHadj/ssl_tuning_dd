@@ -3,52 +3,62 @@ train_val:
   _target_: src.data.psm.dataset.build_dataset
   database_path: ${oc.env:PATH_DATA}
   table_name: "processed_data"
-  columns: ["PSD", "id"]
+  columns: ["PSD", "system_name"]
   preload: True
   condition: 'stage =?'
   parameters: ['train']
-  transform: ${transform.transform_psd}
-  transform_label: ${transform.transform_label}
+  transform: 
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
   _recursive_: True
 
 test:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA}
   table_name : "processed_data"
-  columns: ["PSD", "id"]
-  transform: ${transform.transform_psd}
-  transform_label: ${transform.transform_label}
+  columns: ["PSD", "system_name"]
+  transform: 
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
   preload: True
   condition: 'stage =?'
   parameters: ['test']
+  _recursive_: True
 
 affected_real_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA}
   table_name : "processed_data"
-  columns: ["PSD", "id"]
-  transform: ${transform.transform_psd}
-  transform_label: ${transform.transform_label}
+  columns: ["PSD", "system_name"]
+  transform: 
+    - ${transform.transform_psd} 
+    - ${transform.transform_label}
   preload: True
   condition: 'stage =?'
   parameters: ['anomaly']
+  _recursive_: True
 
 reference:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA_V}
   table_name : "ORIGINAL_PSD"
-  columns: ["PSD", "id"]
-  transform: ${transform.transform_psd}
-  transform_label: ${transform.transform_label}
+  columns: ["PSD", "system_name"]
+  transform: 
+    - ${transform.transform_psd} 
+    - ${transform.transform_label}
   preload: True
+  _recursive_: True
 
 affected_virtual_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA_V}
   table_name : "VAS_notch"
-  columns: ["PSD", "id"]
-  transform: ${transform.transform_psd}
-  transform_label: ${transform.transform_label}
+  columns: ["PSD", "system_name"]
+  transform: 
+    - ${transform.transform_psd} 
+    - ${transform.transform_label}
   preload: False
+  _recursive_: True
+
 
 
