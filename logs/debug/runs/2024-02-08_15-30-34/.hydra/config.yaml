@@ -1,0 +1,235 @@
+task_name: debug
+tags:
+- dev
+train: null
+test: true
+save_state_dict: true
+ckpt_path: null
+seed: 42
+name: test-0.1.0
+transform:
+  transform_psd:
+    _target_: src.data.psm.transform.create_psd_transformer
+    database_path: ${oc.env:PATH_DATA}
+    freq_min: 0
+    freq_max: 150
+    num_classes: 20
+  transform_label:
+    _target_: src.data.psm.transform.create_label_transformer
+    database_path: ${oc.env:PATH_DATA}
+    freq_min: 0
+    freq_max: 150
+    num_classes: 20
+  dim_psd:
+    _target_: src.data.psm.transform.dimension_psd
+    database_path: ${oc.env:PATH_DATA}
+    freq_min: 0
+    freq_max: 150
+    num_classes: 20
+dataset:
+  train_val:
+    _target_: src.data.psm.dataset.build_dataset
+    database_path: ${oc.env:PATH_DATA}
+    table_name: processed_data
+    columns:
+    - PSD
+    - system_name
+    preload: true
+    condition: stage =?
+    parameters:
+    - train
+    transform:
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
+    _recursive_: true
+  test:
+    _target_: src.data.psm.dataset.build_dataset
+    database_path: ${oc.env:PATH_DATA}
+    table_name: processed_data
+    columns:
+    - PSD
+    - system_name
+    transform:
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
+    preload: true
+    condition: stage =?
+    parameters:
+    - test
+    _recursive_: true
+  affected_real_anomaly:
+    _target_: src.data.psm.dataset.build_dataset
+    database_path: ${oc.env:PATH_DATA}
+    table_name: processed_data
+    columns:
+    - PSD
+    - system_name
+    transform:
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
+    preload: true
+    condition: stage =?
+    parameters:
+    - anomaly
+    _recursive_: true
+  reference:
+    _target_: src.data.psm.dataset.build_dataset
+    database_path: ${oc.env:PATH_DATA_V}
+    table_name: ORIGINAL_PSD
+    columns:
+    - PSD
+    - system_name
+    transform:
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
+    preload: true
+    _recursive_: true
+  affected_virtual_anomaly:
+    _target_: src.data.psm.dataset.build_dataset
+    database_path: ${oc.env:PATH_DATA_V}
+    table_name: VAS_notch
+    columns:
+    - PSD
+    - system_name
+    transform:
+    - ${transform.transform_psd}
+    - ${transform.transform_label}
+    preload: false
+    _recursive_: true
+datamodule:
+  _target_: src.data.psm.datamodule.DataModule
+  train_val:
+    dataset: ${dataset.train_val}
+    batch_size: 64
+    shuffle: true
+    num_workers: 4
+  test:
+    dataset: ${dataset.test}
+    batch_size: 64
+    shuffle: false
+    num_workers: 4
+  affected_real_anomaly:
+    dataset: ${dataset.affected_real_anomaly}
+    batch_size: 1000
+    shuffle: false
+    num_workers: 1
+  reference:
+    dataset: ${dataset.reference}
+    batch_size: 1000
+    shuffle: false
+    num_workers: 4
+  affected_virtual_anomaly:
+    dataset: ${dataset.affected_virtual_anomaly}
+    batch_size: 4000
+    shuffle: false
+    num_workers: 4
+  _recursive_: true
+backbone:
+  _target_: src.model.classifier.ClassifierModule
+  cfg:
+    network:
+      _target_: src.model.component.simple_dense_net.SimpleDenseNet
+      input_dim: ${transform.dim_psd}
+      hidden_layers:
+      - 64
+      - 128
+      - 64
+      embedding_dim: 32
+      output_dim: 20
+      dropout: 0.5
+      activation: ReLU
+      batch_norm: true
+      bias: true
+      temperature: 1
+      l1_regularization: 0.0001
+      l2_regularization: 1.0e-05
+      _recursive_: true
+    optimizer:
+      _target_: torch.optim.Adam
+      lr: 0.001
+      weight_decay: 0.0001
+    scheduler:
+      _target_: torch.optim.lr_scheduler.CosineAnnealingLR
+      T_max: 10
+      eta_min: 1.0e-10
+      _partial_: true
+    loss:
+      _target_: torch.nn.CrossEntropyLoss
+    metric:
+      _target_: torchmetrics.Accuracy
+      task: multiclass
+      num_classes: 20
+    logging:
+      on_step: false
+      on_epoch: true
+      sync_dist: true
+      prog_bar: true
+  _recursive_: false
+callbacks:
+  model_checkpoint:
+    _target_: pytorch_lightning.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: best-{epoch:02d}-{val_loss:.4f}
+    monitor: val_loss
+    verbose: false
+    save_last: true
+    save_top_k: 5
+    mode: max
+    auto_insert_metric_name: false
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: null
+    save_on_train_epoch_end: null
+  early_stopping:
+    _target_: pytorch_lightning.callbacks.EarlyStopping
+    monitor: val_loss
+    min_delta: 5.0e-05
+    patience: 15
+    verbose: false
+    mode: max
+    strict: true
+    check_finite: true
+    stopping_threshold: null
+    divergence_threshold: null
+    check_on_train_epoch_end: null
+  model_summary:
+    _target_: pytorch_lightning.callbacks.RichModelSummary
+    max_depth: 1
+  rich_progress_bar:
+    _target_: pytorch_lightning.callbacks.RichProgressBar
+  learning_rate_monitor:
+    _target_: pytorch_lightning.callbacks.LearningRateMonitor
+    logging_interval: epoch
+    log_momentum: false
+logger:
+  comet:
+    _target_: pytorch_lightning.loggers.comet.CometLogger
+    api_key: ${oc.env:COMET_API_KEY}
+    workspace: ${oc.env:COMET_WORKSPACE}
+    project_name: ${oc.env:COMET_PROJECT_NAME}
+    save_dir: ${paths.output_dir}
+    rest_api_key: null
+    experiment_key: null
+    offline: false
+    prefix: ''
+paths:
+  root_dir: ${oc.env:PROJECT_ROOT}
+  data_dir: ${paths.root_dir}/data/
+  log_dir: ${paths.root_dir}/logs/
+  output_dir: ${hydra:runtime.output_dir}
+  work_dir: ${hydra:runtime.cwd}
+trainer:
+  _target_: pytorch_lightning.Trainer
+  min_epochs: 1
+  max_epochs: 10
+  accelerator: cpu
+  devices: 1
+  check_val_every_n_epoch: 1
+  deterministic: false
+env:
+  PATH_DATA: /home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+  PATH_DATA_V: /home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+  COMET_API_KEY: gd2RifnioVchODAgpk637Br8f
+  COMET_WORKSPACE: yacinebelhadj
+  COMET_PROJECT_NAME: SSL

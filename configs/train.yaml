@@ -1,15 +1,17 @@
-HYDRA_FULL_ERROR: 1
 defaults:
   - _self_
   - transform: psm.yaml
   - dataset: psm.yaml
   - datamodule: psm.yaml
   - backbone: multiclass.yaml
-  # - callbacks: psm.yaml
+  - callbacks: psm.yaml
+  - logger: comet.yaml
   - paths: default.yaml
   # - extras: default.yaml
   - hydra: default.yaml
   - trainer: default.yaml
+  - env: ${oc.env:MY_APP_ENV,local}
+
 
 
   # experiment configs allow for version control of specific hyperparameters
@@ -51,3 +53,4 @@ seed: 42
 
 # name of the run, accessed by loggers
 name: "test-0.1.0"
+

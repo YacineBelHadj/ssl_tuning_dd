@@ -14,7 +14,9 @@ setup(
         'hydra-core',
         'pyrootutils',
         'pynvml',
-        'hydra-colorlog',],
+        'hydra-colorlog',
+        'rich',
+        'comet-ml'],
     python_requires='>=3.6 , <3.12',
 )
 

@@ -5,7 +5,6 @@ import hydra
 from hydra import compose, initialize_config_dir
 from omegaconf import OmegaConf
 import argparse
-from hydra.core.global_hydra import GlobalHydra
 
 def get_args_parser() -> argparse.ArgumentParser:
     """Get parser for additional Hydra's command line flags."""

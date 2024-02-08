@@ -2,7 +2,7 @@ import torch
 from src import utils
 import random
 import numpy as np
-
+import os
 from pynvml import (
     nvmlDeviceGetHandleByIndex,
     nvmlDeviceGetMemoryInfo,
@@ -58,3 +58,15 @@ def set_seed(
 
         torch.cuda.deterministic = deterministic
         torch.cuda.benchmark = benchmark
+
+def setting_environment(cfg):
+    """Set environment variables from config."""
+    assert len(cfg) < 10, "Too many environment variables to set! are you sure you want to set all of them?"
+
+    for key, value in cfg.items():
+        # check string 
+        if not isinstance(value, str):
+            raise TypeError(f"Environment variable <{key}> must be a string!")
+        
+        os.environ[key] = value
+        log.info(f"Set environment variable: {key}={value}")

@@ -1,0 +1,559 @@
+[2024-02-06 19:05:46,853][__main__][INFO] - Logging gpu info
+[2024-02-06 19:05:46,853][__main__][INFO] - Setting seed
+[2024-02-06 19:05:46,855][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:05:46,878][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:05:46,878][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:06:48,091][__main__][INFO] - Logging gpu info
+[2024-02-06 19:06:48,092][__main__][INFO] - Setting seed
+[2024-02-06 19:06:48,092][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:06:48,108][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:06:48,108][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:08:01,451][__main__][INFO] - Logging gpu info
+[2024-02-06 19:08:01,451][__main__][INFO] - Setting seed
+[2024-02-06 19:08:01,452][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:08:01,470][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:08:01,470][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:10:29,846][__main__][INFO] - Logging gpu info
+[2024-02-06 19:10:29,847][__main__][INFO] - Setting seed
+[2024-02-06 19:10:29,847][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:10:29,874][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:10:29,874][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:12:28,416][__main__][INFO] - Logging gpu info
+[2024-02-06 19:12:28,416][__main__][INFO] - Setting seed
+[2024-02-06 19:12:28,417][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:12:28,434][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:12:28,434][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:20:26,860][__main__][INFO] - Logging gpu info
+[2024-02-06 19:20:26,861][__main__][INFO] - Setting seed
+[2024-02-06 19:20:26,861][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:20:26,879][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:20:26,879][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:21:34,448][__main__][INFO] - Logging gpu info
+[2024-02-06 19:21:34,448][__main__][INFO] - Setting seed
+[2024-02-06 19:21:34,449][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:21:52,273][__main__][INFO] - Logging gpu info
+[2024-02-06 19:21:52,274][__main__][INFO] - Setting seed
+[2024-02-06 19:21:52,275][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:22:16,563][__main__][INFO] - Logging gpu info
+[2024-02-06 19:22:16,563][__main__][INFO] - Setting seed
+[2024-02-06 19:22:16,564][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:22:28,479][__main__][INFO] - Logging gpu info
+[2024-02-06 19:22:28,480][__main__][INFO] - Setting seed
+[2024-02-06 19:22:28,481][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:22:37,387][__main__][INFO] - Logging gpu info
+[2024-02-06 19:22:37,388][__main__][INFO] - Setting seed
+[2024-02-06 19:22:37,388][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:22:37,404][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:22:37,404][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:23:01,245][__main__][INFO] - Logging gpu info
+[2024-02-06 19:23:01,245][__main__][INFO] - Setting seed
+[2024-02-06 19:23:01,246][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 19:23:01,263][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-06 19:23:01,263][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-06 19:23:41,855][__main__][INFO] - Logging gpu info
+[2024-02-06 19:23:41,856][__main__][INFO] - Setting seed
+[2024-02-06 19:23:41,856][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-06 21:48:18,337][__main__][INFO] - Logging gpu info
+[2024-02-06 21:48:18,338][__main__][INFO] - Setting seed
+[2024-02-06 21:48:18,340][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 10:25:36,670][__main__][INFO] - Logging gpu info
+[2024-02-07 10:25:36,671][__main__][INFO] - Setting seed
+[2024-02-07 10:25:36,672][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 10:26:29,879][__main__][INFO] - Logging gpu info
+[2024-02-07 10:26:29,880][__main__][INFO] - Setting seed
+[2024-02-07 10:26:29,882][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 10:26:30,449][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 10:26:30,450][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 10:26:30,779][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 10:26:30,860][__main__][INFO] - Starting training
+[2024-02-07 10:27:26,291][__main__][INFO] - Training complete
+[2024-02-07 10:27:26,291][__main__][INFO] - Starting testing
+[2024-02-07 12:16:40,245][__main__][INFO] - Logging gpu info
+[2024-02-07 12:16:40,245][__main__][INFO] - Setting seed
+[2024-02-07 12:16:40,246][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 12:16:40,618][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 12:16:40,618][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 12:16:40,906][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 12:16:40,988][__main__][INFO] - Starting training
+[2024-02-07 12:16:52,190][__main__][INFO] - Training complete
+[2024-02-07 12:16:52,190][__main__][INFO] - Starting testing
+[2024-02-07 12:31:14,026][__main__][INFO] - Logging gpu info
+[2024-02-07 12:31:14,027][__main__][INFO] - Setting seed
+[2024-02-07 12:31:14,028][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 12:31:14,047][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 12:31:14,047][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 12:31:14,431][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 12:31:14,496][__main__][INFO] - Starting training
+[2024-02-07 12:31:23,719][__main__][INFO] - Training complete
+[2024-02-07 12:31:23,719][__main__][INFO] - Starting testing
+[2024-02-07 12:32:49,433][__main__][INFO] - Logging gpu info
+[2024-02-07 12:32:49,434][__main__][INFO] - Setting seed
+[2024-02-07 12:32:49,434][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 12:32:49,454][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 12:32:49,454][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 12:32:49,790][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 12:32:49,842][__main__][INFO] - Starting training
+[2024-02-07 12:32:59,646][__main__][INFO] - Training complete
+[2024-02-07 12:32:59,647][__main__][INFO] - Starting testing
+[2024-02-07 12:45:21,502][__main__][INFO] - Logging gpu info
+[2024-02-07 12:45:21,502][__main__][INFO] - Setting seed
+[2024-02-07 12:45:21,503][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 12:45:21,518][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 12:45:21,519][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 12:45:21,523][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 12:45:21,524][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 12:46:12,395][__main__][INFO] - Logging gpu info
+[2024-02-07 12:46:12,395][__main__][INFO] - Setting seed
+[2024-02-07 12:46:12,396][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 12:46:12,410][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 12:46:12,411][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 12:46:12,416][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 12:46:12,417][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 12:46:12,417][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 12:46:12,418][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 12:46:12,418][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 12:46:12,710][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 12:46:12,820][__main__][INFO] - Starting training
+[2024-02-07 12:46:22,392][__main__][INFO] - Training complete
+[2024-02-07 12:46:22,392][__main__][INFO] - Starting testing
+[2024-02-07 14:17:32,363][__main__][INFO] - Logging gpu info
+[2024-02-07 14:17:32,363][__main__][INFO] - Setting seed
+[2024-02-07 14:17:32,364][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:17:32,382][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:17:32,383][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:17:32,387][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:17:32,387][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:17:32,388][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:17:32,388][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:17:32,389][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:18:18,253][__main__][INFO] - Logging gpu info
+[2024-02-07 14:18:18,254][__main__][INFO] - Setting seed
+[2024-02-07 14:18:18,254][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:18:18,271][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:18:18,272][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:18:18,275][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:18:18,276][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:18:18,276][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:18:18,277][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:18:18,277][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:18:18,278][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 14:19:39,077][__main__][INFO] - Logging gpu info
+[2024-02-07 14:19:39,078][__main__][INFO] - Setting seed
+[2024-02-07 14:19:39,079][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:19:39,094][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:19:39,094][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:19:39,099][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:19:39,100][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:19:39,100][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:19:39,101][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:19:39,101][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:19:39,102][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 14:19:39,682][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 14:19:40,008][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 14:19:40,105][__main__][INFO] - Starting training
+[2024-02-07 14:21:09,329][__main__][INFO] - Logging gpu info
+[2024-02-07 14:21:09,330][__main__][INFO] - Setting seed
+[2024-02-07 14:21:09,331][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:21:09,346][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:21:09,347][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:21:09,352][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:21:09,352][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:21:09,353][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:21:09,353][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:21:09,354][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:21:09,354][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 14:21:09,896][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 14:21:10,209][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 14:21:47,964][__main__][INFO] - Logging gpu info
+[2024-02-07 14:21:47,965][__main__][INFO] - Setting seed
+[2024-02-07 14:21:47,965][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:21:47,980][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:21:47,981][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:21:47,984][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:21:47,986][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:21:47,986][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:21:47,987][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:21:47,988][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:22:07,059][__main__][INFO] - Logging gpu info
+[2024-02-07 14:22:07,060][__main__][INFO] - Setting seed
+[2024-02-07 14:22:07,061][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:22:07,079][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:22:07,080][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:22:07,084][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:22:07,084][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:22:07,085][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:22:07,085][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:22:07,086][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:22:07,086][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 14:22:07,625][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 14:22:07,925][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 14:22:07,974][__main__][INFO] - Starting training
+[2024-02-07 14:23:11,849][__main__][INFO] - Logging gpu info
+[2024-02-07 14:23:11,850][__main__][INFO] - Setting seed
+[2024-02-07 14:23:11,850][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 14:23:11,865][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 14:23:11,866][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 14:23:11,870][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 14:23:11,871][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 14:23:11,871][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 14:23:11,872][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 14:23:11,872][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 14:23:11,872][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 14:23:12,442][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 14:23:12,770][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 14:23:12,848][__main__][INFO] - Starting training
+[2024-02-07 14:23:24,523][__main__][INFO] - Training complete
+[2024-02-07 14:23:24,524][__main__][INFO] - Starting testing
+[2024-02-07 16:10:45,941][__main__][INFO] - Starting training script
+[2024-02-07 16:10:45,941][__main__][INFO] - Setting environment variables
+[2024-02-07 16:11:06,695][__main__][INFO] - Starting training script
+[2024-02-07 16:11:06,695][__main__][INFO] - Setting environment variables
+[2024-02-07 16:24:34,601][__main__][INFO] - Starting training script
+[2024-02-07 16:24:34,601][__main__][INFO] - Setting environment variables
+[2024-02-07 16:25:48,093][__main__][INFO] - Starting training script
+[2024-02-07 16:25:48,093][__main__][INFO] - Setting environment variables
+[2024-02-07 16:29:20,357][__main__][INFO] - Starting training script
+[2024-02-07 16:29:20,357][__main__][INFO] - Setting environment variables
+[2024-02-07 16:30:31,171][__main__][INFO] - Starting training script
+[2024-02-07 16:30:31,171][__main__][INFO] - Setting environment variables
+[2024-02-07 16:31:28,520][__main__][INFO] - Starting training script
+[2024-02-07 16:31:28,520][__main__][INFO] - Setting environment variables
+[2024-02-07 16:31:28,520][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-07 16:31:28,521][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-07 16:31:28,521][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-07 16:31:28,521][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-07 16:32:26,621][__main__][INFO] - Starting training script
+[2024-02-07 16:32:26,621][__main__][INFO] - Setting environment variables
+[2024-02-07 16:33:22,953][__main__][INFO] - Starting training script
+[2024-02-07 16:33:22,953][__main__][INFO] - Setting environment variables
+[2024-02-07 16:34:23,395][__main__][INFO] - Starting training script
+[2024-02-07 16:34:23,395][__main__][INFO] - Setting environment variables
+[2024-02-07 16:34:23,395][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-07 16:34:23,396][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-07 16:34:23,396][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-07 16:34:23,396][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-07 16:34:23,396][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-07 16:34:23,396][__main__][INFO] - Logging gpu info
+[2024-02-07 16:34:23,396][__main__][INFO] - Setting seed
+[2024-02-07 16:34:23,397][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 16:34:23,415][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 16:34:23,415][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 16:34:23,418][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 16:34:23,419][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 16:34:23,420][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 16:34:23,421][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 16:34:23,422][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 16:34:23,423][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 16:34:24,048][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 16:34:24,363][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 16:34:24,415][__main__][INFO] - Starting training
+[2024-02-07 16:34:38,117][__main__][INFO] - Training complete
+[2024-02-07 16:34:38,118][__main__][INFO] - Starting testing
+[2024-02-07 16:43:07,694][__main__][INFO] - Starting training script
+[2024-02-07 16:43:07,694][__main__][INFO] - Setting environment variables
+[2024-02-07 16:43:07,694][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-07 16:43:07,694][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-07 16:43:07,695][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-07 16:43:07,695][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-07 16:43:07,695][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-07 16:43:07,695][__main__][INFO] - Logging gpu info
+[2024-02-07 16:43:07,695][__main__][INFO] - Setting seed
+[2024-02-07 16:43:07,696][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 16:43:07,713][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 16:43:07,713][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 16:43:07,717][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 16:43:07,717][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 16:43:07,718][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 16:43:07,719][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 16:43:07,719][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 16:43:07,719][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 16:43:08,356][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 16:43:08,704][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 16:43:08,768][__main__][INFO] - Starting training
+[2024-02-07 16:43:23,093][__main__][INFO] - Training complete
+[2024-02-07 16:43:23,093][__main__][INFO] - Starting testing
+[2024-02-07 16:45:40,604][__main__][INFO] - Starting training script
+[2024-02-07 16:45:40,604][__main__][INFO] - Setting environment variables
+[2024-02-07 16:45:40,604][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-07 16:45:40,604][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-07 16:45:40,604][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-07 16:45:40,605][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-07 16:45:40,605][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-07 16:45:40,605][__main__][INFO] - Logging gpu info
+[2024-02-07 16:45:40,605][__main__][INFO] - Setting seed
+[2024-02-07 16:45:40,606][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-07 16:45:40,626][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-07 16:45:40,626][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-07 16:45:40,630][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-07 16:45:40,631][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-07 16:45:40,632][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-07 16:45:40,633][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-07 16:45:40,634][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-07 16:45:40,634][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-07 16:45:41,353][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-07 16:45:41,754][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-07 16:45:41,829][__main__][INFO] - Starting training
+[2024-02-07 16:45:56,711][__main__][INFO] - Training complete
+[2024-02-07 16:45:56,712][__main__][INFO] - Starting testing
+[2024-02-08 08:10:23,522][__main__][INFO] - Starting training script
+[2024-02-08 08:10:23,522][__main__][INFO] - Setting environment variables
+[2024-02-08 08:10:23,522][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:10:23,523][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:10:23,523][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:10:23,523][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:10:23,523][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:10:23,523][__main__][INFO] - Logging gpu info
+[2024-02-08 08:10:23,523][__main__][INFO] - Setting seed
+[2024-02-08 08:10:23,524][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:10:23,548][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:10:23,549][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:10:23,555][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:10:23,557][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:10:23,557][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:10:23,558][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:10:23,559][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:10:23,559][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-08 08:10:24,182][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:10:24,555][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:10:24,645][__main__][INFO] - Starting training
+[2024-02-08 08:10:39,390][__main__][INFO] - Training complete
+[2024-02-08 08:10:39,391][__main__][INFO] - Starting testing
+[2024-02-08 08:11:11,749][__main__][INFO] - Starting training script
+[2024-02-08 08:11:11,749][__main__][INFO] - Setting environment variables
+[2024-02-08 08:11:11,749][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:11:11,750][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:11:11,750][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:11:11,750][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:11:11,750][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:11:11,750][__main__][INFO] - Logging gpu info
+[2024-02-08 08:11:11,750][__main__][INFO] - Setting seed
+[2024-02-08 08:11:11,751][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:11:11,769][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:11:11,769][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:11:11,773][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:11:11,774][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:11:11,774][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:11:11,775][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:11:11,775][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:11:11,776][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-08 08:11:12,451][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:11:12,836][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:11:12,902][__main__][INFO] - Starting training
+[2024-02-08 08:11:27,591][__main__][INFO] - Training complete
+[2024-02-08 08:11:27,592][__main__][INFO] - Starting testing
+[2024-02-08 08:11:50,134][__main__][INFO] - Starting training script
+[2024-02-08 08:11:50,135][__main__][INFO] - Setting environment variables
+[2024-02-08 08:11:50,135][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:11:50,135][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:11:50,135][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:11:50,135][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:11:50,136][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:11:50,136][__main__][INFO] - Logging gpu info
+[2024-02-08 08:11:50,136][__main__][INFO] - Setting seed
+[2024-02-08 08:11:50,137][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:11:50,164][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:11:50,164][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:11:50,170][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:11:50,171][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:11:50,171][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:11:50,172][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:11:50,173][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:11:50,173][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.mlflow.MLFlowLogger>
+[2024-02-08 08:11:50,762][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:11:51,126][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:11:51,186][__main__][INFO] - Starting training
+[2024-02-08 08:12:04,125][__main__][INFO] - Training complete
+[2024-02-08 08:12:04,125][__main__][INFO] - Starting testing
+[2024-02-08 08:26:26,054][__main__][INFO] - Starting training script
+[2024-02-08 08:26:26,054][__main__][INFO] - Setting environment variables
+[2024-02-08 08:26:26,054][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:26:26,054][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:26:26,054][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:26:26,054][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:26:26,054][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:26:26,054][__main__][INFO] - Logging gpu info
+[2024-02-08 08:26:26,055][__main__][INFO] - Setting seed
+[2024-02-08 08:26:26,055][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:26:26,070][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:26:26,070][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:26:26,074][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:26:26,075][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:26:26,075][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:26:26,075][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:26:26,076][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:26:26,076][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:27:32,537][__main__][INFO] - Starting training script
+[2024-02-08 08:27:32,537][__main__][INFO] - Setting environment variables
+[2024-02-08 08:27:32,537][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:27:32,537][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:27:32,537][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:27:32,538][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:27:32,538][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:27:32,538][__main__][INFO] - Logging gpu info
+[2024-02-08 08:27:32,538][__main__][INFO] - Setting seed
+[2024-02-08 08:27:32,539][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:27:32,569][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:27:32,569][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:27:32,574][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:27:32,575][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:27:32,575][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:27:32,576][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:27:32,577][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:27:32,578][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:28:17,458][__main__][INFO] - Starting training script
+[2024-02-08 08:28:17,458][__main__][INFO] - Setting environment variables
+[2024-02-08 08:28:17,458][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:28:17,458][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:28:17,458][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:28:17,459][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:28:17,459][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:28:17,459][__main__][INFO] - Logging gpu info
+[2024-02-08 08:28:17,459][__main__][INFO] - Setting seed
+[2024-02-08 08:28:17,460][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:28:17,475][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:28:17,475][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:28:17,479][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:28:17,479][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:28:17,480][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:28:17,480][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:28:17,481][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:28:17,481][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:28:17,715][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:28:18,023][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:28:18,086][__main__][INFO] - Starting training
+[2024-02-08 08:28:56,668][__main__][INFO] - Training complete
+[2024-02-08 08:28:56,669][__main__][INFO] - Starting testing
+[2024-02-08 08:44:55,333][__main__][INFO] - Starting training script
+[2024-02-08 08:44:55,333][__main__][INFO] - Setting environment variables
+[2024-02-08 08:44:55,333][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:44:55,333][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:44:55,333][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:44:55,333][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:44:55,334][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:44:55,334][__main__][INFO] - Logging gpu info
+[2024-02-08 08:44:55,334][__main__][INFO] - Setting seed
+[2024-02-08 08:44:55,335][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:44:55,349][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:44:55,349][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:44:55,353][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:44:55,353][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:44:55,354][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:44:55,354][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:44:55,355][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:44:55,355][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:44:55,567][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:44:55,901][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:44:55,971][__main__][INFO] - Starting training
+[2024-02-08 08:45:34,972][__main__][INFO] - Training complete
+[2024-02-08 08:45:34,973][__main__][INFO] - Starting testing
+[2024-02-08 08:47:46,137][__main__][INFO] - Starting training script
+[2024-02-08 08:47:46,137][__main__][INFO] - Setting environment variables
+[2024-02-08 08:47:46,137][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:47:46,137][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:47:46,137][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:47:46,138][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:47:46,138][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:47:46,138][__main__][INFO] - Logging gpu info
+[2024-02-08 08:47:46,138][__main__][INFO] - Setting seed
+[2024-02-08 08:47:46,139][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:47:46,153][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:47:46,153][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:47:46,157][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:47:46,158][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:47:46,158][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:47:46,158][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:47:46,159][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:47:46,159][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:47:46,378][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:47:46,681][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:47:46,767][__main__][INFO] - Starting training
+[2024-02-08 08:48:25,478][__main__][INFO] - Training complete
+[2024-02-08 08:48:25,479][__main__][INFO] - Starting testing
+[2024-02-08 08:51:01,729][__main__][INFO] - Starting training script
+[2024-02-08 08:51:01,729][__main__][INFO] - Setting environment variables
+[2024-02-08 08:51:01,730][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:51:01,730][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:51:01,730][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:51:01,730][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:51:01,730][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:51:01,730][__main__][INFO] - Logging gpu info
+[2024-02-08 08:51:01,730][__main__][INFO] - Setting seed
+[2024-02-08 08:51:01,731][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:51:01,747][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:51:01,748][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:51:01,751][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:51:01,752][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:51:01,752][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:51:01,753][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:51:01,753][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:51:01,754][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:51:01,972][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:51:02,271][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:51:02,337][__main__][INFO] - Starting training
+[2024-02-08 08:51:38,415][__main__][INFO] - Training complete
+[2024-02-08 08:51:38,416][__main__][INFO] - Starting testing
+[2024-02-08 08:52:22,888][__main__][INFO] - Starting training script
+[2024-02-08 08:52:22,889][__main__][INFO] - Setting environment variables
+[2024-02-08 08:52:22,889][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 08:52:22,889][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 08:52:22,889][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 08:52:22,889][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 08:52:22,890][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 08:52:22,890][__main__][INFO] - Logging gpu info
+[2024-02-08 08:52:22,890][__main__][INFO] - Setting seed
+[2024-02-08 08:52:22,891][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 08:52:22,908][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 08:52:22,908][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 08:52:22,913][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 08:52:22,914][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 08:52:22,914][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 08:52:22,915][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 08:52:22,915][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 08:52:22,916][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 08:52:23,164][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 08:52:23,493][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 08:52:23,563][__main__][INFO] - Starting training
+[2024-02-08 08:54:12,088][__main__][INFO] - Training complete
+[2024-02-08 08:54:12,089][__main__][INFO] - Starting testing
+[2024-02-08 15:30:34,711][__main__][INFO] - Starting training script
+[2024-02-08 15:30:34,711][__main__][INFO] - Setting environment variables
+[2024-02-08 15:30:34,711][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 15:30:34,711][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 15:30:34,711][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 15:30:34,711][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 15:30:34,712][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 15:30:34,712][__main__][INFO] - Logging gpu info
+[2024-02-08 15:30:34,712][__main__][INFO] - Setting seed
+[2024-02-08 15:30:34,713][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 15:30:34,728][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 15:30:34,729][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 15:30:34,733][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 15:30:34,734][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 15:30:34,734][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 15:30:34,735][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 15:30:34,735][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 15:30:34,735][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 15:30:34,998][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 15:30:35,347][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 15:30:35,422][__main__][INFO] - Starting training
+[2024-02-08 15:32:02,080][__main__][INFO] - Starting training script
+[2024-02-08 15:32:02,081][__main__][INFO] - Setting environment variables
+[2024-02-08 15:32:02,081][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2.db
+[2024-02-08 15:32:02,081][src.utils.env_utils][INFO] - Set environment variable: PATH_DATA_V=/home/yacine/Documents/PhD/Code/GitProject/PBSHM_mdof/data/processed/SETTINGS1/settings2_vas.db
+[2024-02-08 15:32:02,081][src.utils.env_utils][INFO] - Set environment variable: COMET_API_KEY=gd2RifnioVchODAgpk637Br8f
+[2024-02-08 15:32:02,081][src.utils.env_utils][INFO] - Set environment variable: COMET_WORKSPACE=yacinebelhadj
+[2024-02-08 15:32:02,081][src.utils.env_utils][INFO] - Set environment variable: COMET_PROJECT_NAME=SSL
+[2024-02-08 15:32:02,081][__main__][INFO] - Logging gpu info
+[2024-02-08 15:32:02,082][__main__][INFO] - Setting seed
+[2024-02-08 15:32:02,082][__main__][INFO] - Instantiating datamodule <<src.data.psm.datamodule.DataModule>>
+[2024-02-08 15:32:02,097][__main__][INFO] - Instantiating callbacks <<......>>
+[2024-02-08 15:32:02,097][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-08 15:32:02,101][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-08 15:32:02,101][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-08 15:32:02,102][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-08 15:32:02,102][src.utils.instantiator][INFO] - Instantiating callback <pytorch_lightning.callbacks.LearningRateMonitor>
+[2024-02-08 15:32:02,103][__main__][INFO] - Instantiating loggers <<......>>
+[2024-02-08 15:32:02,103][src.utils.instantiator][INFO] - Instantiating logger <pytorch_lightning.loggers.comet.CometLogger>
+[2024-02-08 15:32:02,383][__main__][INFO] - Instantiating Lit - model <<src.model.classifier.ClassifierModule>>
+[2024-02-08 15:32:02,704][__main__][INFO] - Instantiating Trainer <<pytorch_lightning.Trainer>>
+[2024-02-08 15:32:02,772][__main__][INFO] - Starting training

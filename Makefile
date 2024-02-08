@@ -37,6 +37,10 @@ train: ## Train the model
 # clean cache
 clean-cache:
 	rm -rf __pycache__/
+
+clean-slurm:
+	rm -rf slurm-*
+	
 clean-all : clean clean-logs clean-output clean-lit-logs clean-cache ## Clean all
 
 # rsync to remote server  

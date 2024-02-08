@@ -3,8 +3,8 @@
 model_checkpoint:
   _target_: pytorch_lightning.callbacks.ModelCheckpoint
   dirpath: ${paths.output_dir}/checkpoints # directory to save the model file
-  filename: ${replace:"epoch{epoch:03d}-loss_valid{__loss__/valid:.4f}-metric_valid{__metric__/valid:.4f}"} # checkpoint filename
-  monitor: ${replace:"__metric__/valid"} # name of the logged metric which determines when model is improving
+  filename: 'best-{epoch:02d}-{val_loss:.4f}' # checkpoint filename
+  monitor: val_loss # name of the logged metric which determines when model is improving
   verbose: False # verbosity mode
   save_last: True # additionally always save an exact copy of the last checkpoint to a file last.ckpt
   save_top_k: 5 # save k best models (determined by above metric)
@@ -18,7 +18,7 @@ model_checkpoint:
 
 early_stopping:
   _target_: pytorch_lightning.callbacks.EarlyStopping
-  monitor: ${replace:"__metric__/valid"} # quantity to be monitored, must be specified !!!
+  monitor: val_loss # quantity to be monitored, must be specified !!!
   min_delta: 5.0e-5 # minimum change in the monitored quantity to qualify as an improvement
   patience: 15 # number of checks with no improvement after which training will be stopped
   verbose: False # verbosity mode
@@ -35,3 +35,8 @@ model_summary:
 
 rich_progress_bar:
   _target_: pytorch_lightning.callbacks.RichProgressBar
+
+learning_rate_monitor:
+  _target_: pytorch_lightning.callbacks.LearningRateMonitor
+  logging_interval: 'epoch' # 'step' or 'epoch' - when to log learning rate
+  log_momentum: False # log the momentum if the optimizer is using momentum

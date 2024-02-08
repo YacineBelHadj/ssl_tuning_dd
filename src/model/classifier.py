@@ -14,6 +14,7 @@ class ClassifierModule(BaseLitModule):
         self.scheduler = cfg.scheduler
         self.logging = cfg.logging
         self.metric = cfg.metric
+        self.metric_name = cfg.metric['_target_'].split('.')[-1]
 
         super().__init__(self.network,self.optimizer,self.scheduler,self.logging,self.metric,*args,**kwargs)
         self.save_hyperparameters()
@@ -30,17 +31,17 @@ class ClassifierModule(BaseLitModule):
     
     def training_step(self,batch,batch_idx):
         loss,metric,y_pred = self._common_step(batch,"train")
-        self.log_dict({"train_loss":loss,"train_metric":metric})
+        self.log_dict({"train_loss":loss,f"train_{self.metric_name}":metric},**self.logging)
         return loss
     
     def validation_step(self,batch,batch_idx):
         loss,metric,y_pred = self._common_step(batch,"val")
-        self.log_dict({"val_loss":loss,"val_metric":metric})
+        self.log_dict({"val_loss":loss,f"val_{self.metric_name}":metric},**self.logging)
         return loss
     
     def test_step(self,batch,batch_idx):
         loss,metric,y_pred = self._common_step(batch,"test")
-        self.log_dict({"test_loss":loss,"test_metric":metric})
+        self.log_dict({"test_loss":loss,f"test_{self.metric_name}":metric},**self.logging)
         self.metric["test"]
         return loss
 

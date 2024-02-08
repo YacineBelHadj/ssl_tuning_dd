@@ -72,6 +72,7 @@ class PSMDataset(Dataset):
         self.keys = self._get_keys()
 
         self.data = self._preload_data() if self.preload else None
+
     def _get_keys(self):
         query = f"SELECT id FROM {self.table_name} WHERE {self.condition}" if self.condition else f"SELECT id FROM {self.table_name}"
         with closing(sqlite3.connect(self.database_path)) as conn:
@@ -95,6 +96,7 @@ class PSMDataset(Dataset):
 
     def __len__(self):
         return len(self.keys)
+    
     def __getitem__(self, idx):
         if self.preload:
             return self.data[idx]
@@ -102,6 +104,7 @@ class PSMDataset(Dataset):
             key = self.keys[idx]
             row = self._fetch_data(key)
             return self._process_row(row) if row else None
+        
     def _fetch_data(self, key):
         query = f"SELECT {self.columns} FROM {self.table_name} WHERE id = ?"
         with closing(sqlite3.connect(self.database_path)) as conn:
