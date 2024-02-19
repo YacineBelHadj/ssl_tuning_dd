@@ -1,21 +1,22 @@
 from abc import ABC, abstractmethod
-from typing import List, Tuple
 
-class DDSystem(ABC):
-    def __init__(self,encoder) -> None:
-        self.encoder = encoder
-        self.system = None
+class BaseDDS(ABC):
+    def __init__(self) -> None:
+        super().__init__()
+        # Initialize any necessary attributes or leave empty if none are needed
+
     @abstractmethod
-    def fit(self,data):
-        pass
-    @abstractmethod
-    def predict(self,data):
-        pass
-    @abstractmethod
-    def save(self,path):
-        pass
-    @abstractmethod
-    def load(self,path):
+    def fit(self, data):
         pass
 
+    @abstractmethod
+    def predict_samples(self, data):
+        pass
 
+    @abstractmethod
+    def save(self, path):
+        pass
+
+    @abstractmethod
+    def load(self, path):
+        pass

@@ -1,12 +1,35 @@
 import pytest
 from unittest.mock import MagicMock, patch
 from src.data.psm.dataset import PSMDatasetBuilder, build_dataset  # Adjust import path as necessary
-
+import sqlite3
+import hydra 
+import pyrootutils
 # Mocked row data to simulate database fetch operations
-mocked_rows = [
-    (b'\x00\x00\x00\x00', 'system1', 0),  # Mocked PSD data, system name, and anomaly level
-    (b'\x01\x01\x01\x01', 'system2', 1),
-]
+root = pyrootutils.setup_root(
+    search_from=__file__,
+    indicator=[".git", "pyproject.toml"],
+    pythonpath=True,
+    dotenv=True,
+)
+_HYDRA_PARAMS = {
+    "version_base": "1.3",
+    "config_path": str(root / "configs"),
+    "config_name": "train.yaml",
+}
+@pytest.fixture
+@hydra.main(_HYDRA_PARAMS)
+def config():
+    
+@pytest.fixture
+def temp_database(tmp_path):
+    """
+    Fixture to create a temporary database file.
+    """
+    temp_db = tmp_path / 'temp.db'
+    conn = sqlite3.connect(temp_db)
+    cursor = conn.cursor()
+    cursor.execute('CREATE TABLE BEFORE_VAS (PSD BLOB, system_name TEXT, frequnecy_ INTEGER)')
+
 
 @pytest.fixture
 def mock_sqlite(mocker):

@@ -2,3 +2,4 @@
 # dotenv file
 .env
 */env/*
+logs/*

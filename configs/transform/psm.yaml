@@ -17,6 +17,7 @@ dim_psd:
   freq_min: 0
   freq_max: 150
   num_classes: 20
+num_classes: 20
 
 #dim_psd_save: ${set_env:${transform.dim_psd},DIM_PSD}
 

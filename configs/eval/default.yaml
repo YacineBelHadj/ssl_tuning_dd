@@ -1,0 +1,12 @@
+_target_: src.eval.benchmark.Benchmark
+before_anomaly_columns:
+  - "system_name"
+after_anomaly_columns:
+  - "system_name"
+  - "f_anomaly"
+  - "l_anomaly"
+transform: inverse
+hue: "system_name"
+anomaly_config:
+  - "f_anomaly"
+  - "l_anomaly"

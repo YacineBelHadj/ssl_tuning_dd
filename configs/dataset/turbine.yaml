@@ -3,10 +3,14 @@ train_val:
   _target_: src.data.psm.dataset.build_dataset
   database_path: ${oc.env:PATH_DATA}
   table_name: "processed_data"
-  columns: ["PSD", "system_name"]
+  columns: ["PSD"]
   preload: True
-  condition: 'stage =?'
-  parameters: ['train']
+  condition: 
+    - 'oc'
+    - 'turbine= ?'
+  parameters: 
+    - ['rpm_max','idle']
+    - ['1','2']
   transform: 
     - ${transform.transform_psd}
     - ${transform.transform_label}

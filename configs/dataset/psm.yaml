@@ -25,7 +25,7 @@ test:
   parameters: ['test']
   _recursive_: True
 
-affected_real_anomaly:
+structural_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA}
   table_name : "processed_data"
@@ -38,10 +38,10 @@ affected_real_anomaly:
   parameters: ['anomaly']
   _recursive_: True
 
-reference:
+before_virtual_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA_V}
-  table_name : "ORIGINAL_PSD"
+  table_name : "BEFORE_VAS"
   columns: ["PSD", "system_name"]
   transform: 
     - ${transform.transform_psd} 
@@ -49,14 +49,16 @@ reference:
   preload: True
   _recursive_: True
 
-affected_virtual_anomaly:
+after_virtual_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA_V}
-  table_name : "VAS_notch"
-  columns: ["PSD", "system_name"]
+  table_name : "AFTER_VAS"
+  columns: ["PSD", "system_name","frequency_a",'amplitude_a']
   transform: 
     - ${transform.transform_psd} 
     - ${transform.transform_label}
+    - null
+    - null
   preload: False
   _recursive_: True
 

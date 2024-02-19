@@ -12,21 +12,21 @@ test:
   shuffle: False
   num_workers: 4
 
-affected_real_anomaly:
-  dataset: ${dataset.affected_real_anomaly}
+structural_anomaly:
+  dataset: ${dataset.structural_anomaly}
   batch_size: 1000
   shuffle: False
   num_workers: 1
 
-reference:
-  dataset: ${dataset.reference}
-  batch_size: 1000
+before_virtual_anomaly:
+  dataset: ${dataset.before_virtual_anomaly}
+  batch_size: 40000
   shuffle: False
   num_workers: 4
 
-affected_virtual_anomaly:
-  dataset: ${dataset.affected_virtual_anomaly}
-  batch_size: 4000
+after_virtual_anomaly:
+  dataset: ${dataset.after_virtual_anomaly}
+  batch_size: 40000
   shuffle: False
   num_workers: 4
 

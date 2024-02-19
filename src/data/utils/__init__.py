@@ -1,0 +1,1 @@
+from src.data.utils.collate import collate_fn_first_column

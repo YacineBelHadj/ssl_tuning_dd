@@ -1,0 +1,2 @@
+_target_: src.downstream.encoder_gmm.EncoderGMM
+num_classes: ${transform.num_classes}

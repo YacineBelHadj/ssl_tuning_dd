@@ -3,6 +3,7 @@ from pathlib import Path
 import sqlite3
 import numpy as np
 import torch
+import matplotlib.pyplot as plt
 
 class CreateTransformer:
     def __init__(self, database_path: Union[str, Path], freq_min: int, freq_max: int, num_classes: int):
@@ -22,8 +23,6 @@ class CreateTransformer:
 
             c.execute("SELECT PSD FROM processed_data WHERE stage='train'")
             psd_data = np.array([np.frombuffer(row[0],dtype=np.float32)[self.mask_cut_psd] for row in c.fetchall()])
-            psd_data = np.log(psd_data)
-            psd_data = psd_data[self.mask_cut_psd]
             return freq_before, psd_data.min(), psd_data.max(), psd_data.shape[1]
 
     def get_transformer_psd(self):

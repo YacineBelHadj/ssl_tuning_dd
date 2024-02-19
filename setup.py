@@ -16,7 +16,9 @@ setup(
         'pynvml',
         'hydra-colorlog',
         'rich',
-        'comet-ml'],
+        'comet-ml',
+        'comet',
+        'pandas'],
     python_requires='>=3.6 , <3.12',
 )
 

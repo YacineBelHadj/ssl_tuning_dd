@@ -1,5 +1,6 @@
 defaults:
   - _self_
+  - extras: default.yaml
   - transform: psm.yaml
   - dataset: psm.yaml
   - datamodule: psm.yaml
@@ -7,10 +8,11 @@ defaults:
   - callbacks: psm.yaml
   - logger: comet.yaml
   - paths: default.yaml
-  # - extras: default.yaml
   - hydra: default.yaml
   - trainer: default.yaml
   - env: ${oc.env:MY_APP_ENV,local}
+  - downstream: gmm.yaml
+  - eval: default.yaml
 
 
 
