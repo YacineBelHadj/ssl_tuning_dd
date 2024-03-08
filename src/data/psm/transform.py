@@ -23,6 +23,7 @@ class CreateTransformer:
 
             c.execute("SELECT PSD FROM processed_data WHERE stage='train'")
             psd_data = np.array([np.frombuffer(row[0],dtype=np.float32)[self.mask_cut_psd] for row in c.fetchall()])
+            psd_data = np.log(psd_data)
             return freq_before, psd_data.min(), psd_data.max(), psd_data.shape[1]
 
     def get_transformer_psd(self):

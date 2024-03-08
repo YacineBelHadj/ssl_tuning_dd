@@ -29,10 +29,11 @@ structural_anomaly:
   _target_: src.data.psm.dataset.build_dataset
   database_path : ${oc.env:PATH_DATA}
   table_name : "processed_data"
-  columns: ["PSD", "system_name"]
+  columns: ["PSD", "system_name","anomaly_level"]
   transform: 
     - ${transform.transform_psd} 
     - ${transform.transform_label}
+    - null
   preload: True
   condition: 'stage =?'
   parameters: ['anomaly']

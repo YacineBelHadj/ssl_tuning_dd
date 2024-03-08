@@ -48,13 +48,21 @@ exportenv:
 	export $(<.env grep -v "^#" | xargs)
 
 
-REMOTE_SERVER=vsc10630@login.hpc.vub.be
-REMOTE_PATH=/scratch/brussel/106/vsc10630/ssl_tuning_ddl
+REMOTE_SERVER_VUB=vsc10630@login.hpc.vub.be
+REMOTE_PATH_VUB=/scratch/brussel/106/vsc10630/ssl_tuning_ddl
 
-sync-to-cluster:
-	echo $(REMOTE_SERVER)
-	echo $(REMOTE_PATH)
-	rsync -avz --exclude=.rsyncignore ./ $(REMOTE_SERVER):$(REMOTE_PATH)
+REMOTE_SERVER_GENT=vsc10630@login.hpc.ugent.be
+REMOTE_PATH_GENT=/scratch/gent/vo/000/gvo00016/vsc10630/ssl_tuning_ddl
+
+sync-to-cluster_VUB:
+	echo $(REMOTE_SERVER_VUB)
+	echo $(REMOTE_PATH_VUB)
+	rsync -avz --exclude=.rsyncignore ./ $(REMOTE_SERVER_VUB):$(REMOTE_PATH_VUB)
+
+sync-to-cluster_GENT:
+	echo $(REMOTE_SERVER_GENT)
+	echo $(REMOTE_PATH_GENT)
+	rsync -avz --exclude=.rsyncignore ./ $(REMOTE_SERVER_GENT):$(REMOTE_PATH_GENT)
 
 fetch-logs: ## Fetch log files from the cluster
 	mkdir -p local_logs

@@ -1,7 +1,7 @@
 import pytest
 
 from src.downstream.base_dds import BaseDDS
-from src.eval.benchmark_vas import Benchmark_VAS
+from src.eval.benchmark import Benchmark_VAS
 from unittest.mock import Mock, patch
 
 # Mocking DataLoader and LightningDataModule for the sake of simplicity

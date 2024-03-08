@@ -9,7 +9,6 @@ setup(
     packages=find_packages(include=['src', 'src.*']),
     install_requires=[
         'lightning',
-        'wandb',
         'numpy',
         'hydra-core',
         'pyrootutils',

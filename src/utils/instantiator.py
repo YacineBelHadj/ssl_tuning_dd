@@ -5,6 +5,7 @@ import hydra
 
 from omegaconf import DictConfig
 from src.utils import get_pylogger
+import importlib
 
 log = get_pylogger(__name__)
 
@@ -59,3 +60,11 @@ def instantiate_loggers(logger_cfg: DictConfig) -> List[Logger]:
             logger.append(hydra.utils.instantiate(lg_conf))
 
     return logger
+
+
+def load_object(class_path:str):
+    module_path = '.'.join(class_path.split('.')[:-1])
+    class_name = class_path.split('.')[-1]
+    module = importlib.import_module(module_path)
+    class_ = getattr(module,class_name)
+    return class_

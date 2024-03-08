@@ -7,16 +7,7 @@ from sklearn.metrics import roc_auc_score
 import numpy as np
 from src.utils.rich_utils import with_progress_bar
 
-def inverse(anomaly_score):
-    """
-    Transforms the anomaly score to a value between 0 and 1.
-    
-    Args:
-    anomaly_score (torch.Tensor): The anomaly score.
-    
-    Returns:
-    """
-    return -anomaly_score
+##
 @with_progress_bar
 def get_anomaly_score(dds:BaseDDS, columns:List[str], dataloader:DataLoader,key_name:str="anomaly_index",**kwargs):
     #check if the dataloader has the same length of columns
@@ -131,4 +122,21 @@ def _calculate_auc_hue(df:pd.DataFrame,hue:str,anomaly_conf=List[str],transform:
             auc_list = calculate_auc_config(group,anomaly_conf=anomaly_conf)
             auc_results.append({hue:name,**auc_list})
                  
+###
 
+def inverse(anomaly_score):
+    """
+    Transforms the anomaly score to a value between 0 and 1.
+    
+    Args:
+    anomaly_score (torch.Tensor): The anomaly score.
+    
+    Returns:
+    """
+    return -anomaly_score
+    
+def get_transform_fn(transform):
+    if transform == 'inverse':
+        return inverse
+    else:
+        raise ValueError(f"Unknown transform {transform}.")

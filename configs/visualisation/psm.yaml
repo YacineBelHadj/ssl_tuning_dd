@@ -1,0 +1,11 @@
+_target_: src.data.visualisation.DatamoduleVis
+number_of_instances: 10
+dataset_name: 
+- "train"
+- "val"
+- "test"
+- "structural_anomaly"
+- "before_virtual_anomaly"
+- "after_virtual_anomaly"
+verbose: False
+_recursive_: True

@@ -1,0 +1,9 @@
+_target_: src.eval.benchmark.Benchmark
+dl1_name: test_dataloader
+dl2_name: structural_anomaly_dataloader
+dl1_columns: ["system_name"]
+dl2_columns: ["system_name","stiffness_reduction"]
+hue: "system_name"
+transform: "inverse"
+anomaly_config: ["stiffness_reduction"]
+plotting_name: plot_boxplot

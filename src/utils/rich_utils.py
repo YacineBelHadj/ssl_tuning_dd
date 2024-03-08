@@ -7,8 +7,8 @@ import rich.tree
 from hydra.core.hydra_config import HydraConfig
 from omegaconf import DictConfig, OmegaConf, open_dict
 from pytorch_lightning.utilities import rank_zero_only
-from rich.progress import Progress
-from rich.prompt import Prompt
+from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
+from functools import wraps
 
 from src.utils import pylogger
 
@@ -77,11 +77,7 @@ def print_config_tree(
         with open(Path(cfg.paths.output_dir, "config_tree.log"), "w") as file:
             rich.print(tree, file=file)
 
-from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
-from functools import wraps
 
-from rich.progress import Progress, SpinnerColumn, TextColumn
-from functools import wraps
 
 
 def with_progress_bar(func):

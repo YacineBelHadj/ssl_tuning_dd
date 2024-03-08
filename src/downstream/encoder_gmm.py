@@ -81,7 +81,9 @@ class EncoderGMM(BaseDDS):
                 x  = batch
                 x = x.detach().numpy()
                 embedding = self.encoder(x)
-                label = self.gm.predict(embedding)
+
+                # get likelihood of the embedding
+                label = self.gm.score_samples(embedding)
                 labels.append(label)
         return np.concatenate(labels,dim=0)
     
@@ -105,7 +107,7 @@ class EncoderGMM(BaseDDS):
 
         with torch.no_grad():
             embedding = self.encoder(sample)
-            label = self.gm.predict(embedding)
+            label = self.gm.score_samples(embedding)
         return label
 
     # add a function to make the object callable and return the predict function

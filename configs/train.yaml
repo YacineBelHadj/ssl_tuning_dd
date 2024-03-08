@@ -4,13 +4,14 @@ defaults:
   - transform: psm.yaml
   - dataset: psm.yaml
   - datamodule: psm.yaml
+  - visualisation: psm.yaml
   - backbone: multiclass.yaml
   - callbacks: psm.yaml
   - logger: comet.yaml
   - paths: default.yaml
   - hydra: default.yaml
   - trainer: default.yaml
-  - env: ${oc.env:MY_APP_ENV,local}
+  - env: ${oc.env:MY_APP_ENV,local}.yaml
   - downstream: gmm.yaml
   - eval: default.yaml
 
@@ -53,6 +54,9 @@ ckpt_path: null
 # seed for random number generators in pytorch, numpy and python.random
 seed: 42
 
+visualize: False
+
 # name of the run, accessed by loggers
 name: "test-0.1.0"
+
 

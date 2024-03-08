@@ -54,7 +54,7 @@ class DataModule(pl.LightningDataModule):
         self.before_virtual_anomaly_ds = self._get_dataset(self.before_virtual_anomaly)
         self.after_virtual_anomaly_ds = self._get_dataset(self.after_virtual_anomaly)
         total_length = len(self.train_val_ds)
-        self.len_val = int(total_length * 0.8)
+        self.len_val = int(total_length * 0.2)
         self.len_train = total_length - self.len_val
         self.train_ds,self.val_ds = random_split(self.train_val_ds,[self.len_train,self.len_val])
 

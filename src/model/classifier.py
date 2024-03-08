@@ -1,4 +1,4 @@
-from model.lit_module import BaseLitModule
+from src.model.lit_module import BaseLitModule
 import hydra
 from omegaconf import DictConfig
 from typing import Any

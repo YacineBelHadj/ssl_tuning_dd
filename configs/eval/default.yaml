@@ -1,12 +1,21 @@
-_target_: src.eval.benchmark.Benchmark
-before_anomaly_columns:
-  - "system_name"
-after_anomaly_columns:
-  - "system_name"
-  - "f_anomaly"
-  - "l_anomaly"
-transform: inverse
-hue: "system_name"
-anomaly_config:
-  - "f_anomaly"
-  - "l_anomaly"
+_target_: src.eval.evaluator.Evaluator
+cfg:
+  benchmark_vas:
+    _target_: src.eval.benchmark.Benchmark
+    dl1_name: before_virtual_anomaly_dataloader
+    dl2_name: after_virtual_anomaly_dataloader
+    dl1_columns: ["system_name"]
+    dl2_columns: ["system_name","f_anomaly","a_anomaly"]
+    hue: "system_name"
+    transform_name: "inverse"
+    anomaly_config: ["f_anomaly","a_anomaly"]
+  benchmark_sa: 
+    _target_: src.eval.benchmark.Benchmark
+    dl1_name: test_dataloader
+    dl2_name: structural_anomaly_dataloader
+    dl1_columns: ["system_name"]
+    dl2_columns: ["system_name","stiffness_reduction"]
+    hue: "system_name"
+    transform_name: "inverse"
+    anomaly_config: ["stiffness_reduction"]
+_recursive_: False
